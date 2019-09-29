@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Curso JavaScript</title>
+    </head>
+    <body>
+        <script>
+
+            //Operadores Lógicos
+        // and -> && / or -> || / not -> !=
+        
+        var sexo = 'F', idade = 23;
+        if(sexo == 'M' || idade >= 18) { //pode usar and ou or
+            console.log('OK');
+        }
+        
+            //ou
+        
+        var sexo = 'F';
+        if (sexo != 'M') { //negação
+            console.log('OK');
+        }
+         
+        
+        var sexo = 'F';
+        var Masculino
+        if (sexo == 'M') {
+            Masculino = true; 
+        } else {
+            Masculino = false;
+        }
+        console.log(Masculino);
+        
+        
+        var sexo = 'M';
+        var masculino = (sexo == 'M');
+        console.log(masculino); 
+
+        </script>   
+    </body>
+</html>
